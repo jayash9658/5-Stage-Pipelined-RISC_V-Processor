@@ -15,7 +15,7 @@ A complete implementation of a **RISC-V RV64I processor** in Verilog, including:
 
 ---
 <img width="2124" height="1351" alt="image" src="https://github.com/user-attachments/assets/ea013155-f4c5-4bdc-8109-85681ada0c10" />
----
+
 
 ## 📌 Overview
 
