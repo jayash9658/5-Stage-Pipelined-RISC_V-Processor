@@ -131,8 +131,6 @@ Two architectures are designed:
   * Load-use stalls
   * Branch flushing
 
-```
-
 ✔ Correct execution achieved using forwarding paths 
 
 ---
