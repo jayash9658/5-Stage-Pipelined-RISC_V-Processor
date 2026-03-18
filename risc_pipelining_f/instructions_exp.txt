@@ -1,0 +1,15 @@
+0x00  addi x10,x0,0
+0x04  addi x5,x0,0
+0x08  addi x6,x0,1
+0x0C  sd x5,0(x10)
+0x10  sd x6,8(x10)
+0x14  addi x8,x0,3
+0x18  add x7,x5,x6       <-- loop
+0x1C  sd x7,16(x10)
+0x20  add x5,x6,x0
+0x24  add x6,x7,x0
+0x28  addi x10,x10,8
+0x2C  addi x8,x8,-1
+0x30  beq x8,x0,done
+0x34  beq x0,x0,loop
+0x38  done
