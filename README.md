@@ -152,5 +152,5 @@ Two architectures are designed:
 * Cache integration
 * Out-of-order execution
 
-* or tailor it specifically for **GitHub portfolio + recruiters** 🔥
+
 
